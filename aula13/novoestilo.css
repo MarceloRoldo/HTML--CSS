@@ -1,0 +1,46 @@
+@charset "UTF-8";
+* {
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /*
+    Medidas Absolutas:
+    cm, mm, in, px, pt, pc
+
+    recomendado usar "px"
+
+    Medidas Relativas:
+    em, ex, rem, vw, vh, %
+
+    recomendado usar "em"
+
+    1em geralmente é 16px
+    1.5em geralmente é 24px
+    2em geralmente é 32px
+    */
+p {
+    text-align: justify;
+}
+body  {
+    background-image: linear-gradient(to top, #10454F, #506266);
+    background-attachment: fixed;
+
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.582);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1 {
+    color: #10454f;
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 0.5px #10454f7c;
+}
+h2 {
+    color: #616644;
+    
+}

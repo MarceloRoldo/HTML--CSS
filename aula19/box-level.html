@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box level</title>
+    <style>
+        h1 { /* box-level*/
+
+            /* "display: inline;" faz com que esse elemento seja inline-level*/
+            background-color: bisque;
+            height: 300px;
+            width: 300px;
+
+            border: 15px solid aqua;
+
+            border-width: 15px;
+            border-style: solid;
+            border-color: aqua;
+
+            padding: 4px ;
+
+            padding-top: 4px;
+            padding-right: 4px;
+            padding-bottom: 4px;
+            padding-left: 10px;
+
+            
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            margin: 10px auto 40px auto;
+            
+        }
+        a{ /* inline-level*/
+
+            /* "display: block;" faz com que esse elemento seja box-level*/
+
+            background-color: rgb(21, 172, 172);
+            border: 2px solid blueviolet;
+            padding: 4px;
+
+            outline-width: 3px;
+            outline-style: dashed;
+            outline-color: black;
+
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>paragrafos sao box level <a href="https://www.fundecitrus.com.br/doencas/msc">link sobre citros</a>. vamos ver oq acontece</p>
+    
+</body>
+</html>

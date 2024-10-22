@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>sobre imagens</title>
+</head>
+<body>
+    <h1>alguma coisa sobre imagens</h1>
+    <h3>conforme a tela for mudando de tamanho, a imagen vai trocar de tamanho para se adaptar melhor</h3>
+    <picture>
+        <source media="(max-width: 500px)" srcset="serrafinap.jpeg" type="image/jpeg">
+        <source media="(max-width: 1000px)" srcset="serrafinam.jpeg" type="image/jpeg">
+        <source media="(max-width: 1500px)" srcset="serrafinag.jpeg" type="image/jpeg">
+        <source media="(max-width: 1500px)" srcset="serrafinag.jpeg" type="image/jpeg">
+        <img src="serrafina.jpeg" alt="piloto de moto empinando">
+    </picture>
+    
+    <h1>agora alguns audios pra ver como funciona</h1>
+    <p>Mamonas Assasinas - Vira-Vira &#x1F447 </p>
+    <audio preload="metadata" autoplay controls loop  >
+       
+        <source src="mamonas.mp3" type="audio/mpeg">
+        
+        
+       
+       
+    </audio> <br>
+    <p>musica de rock &#x1F447</p>
+    <audio preload="metadata" controls>
+        
+        <source src="rock.mp3" type="audio/mpeg">
+        
+    </audio>
+    <p>Valhalla Calling Me &#x1F447</p>
+    <audio preload="auto" controls> 
+        <source src="valhalla.mp3" type="audio/mpeg">
+        <p>nao esta conseguindo abrir o arquivo?? <a href="rock.mp3" download="rock.mp3" type="audio/mp3"></a></p>
+    </audio> <br>
+   
+    <h1>alguma coisa sobre videos</h1>
+
+    <p>abaixo deveria aparecer um video &#x1F447 </p>
+    <video width="600" controls>
+        <source src="rockstar.mp4" type="video/mp4">
+    </video><br>
+    <p>aqui deveria estar aparecendo um video &#x1F447</p>
+    <video width="600" controls>
+        <source src="untitled.mp4" type="video/mp4">
+    </video><br>
+    <p>aqui teremos outro video &#x1F447 </p>
+
+    <video width="600" controls>
+        <source src="salvar.mp4" type="video/mp4">
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7qvqwmXg_OI?si=_YodpN-s4M3bpIhB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
