@@ -11,21 +11,21 @@ html, body {
     padding: 0;
     height: 100%;
 }
-
+/*
 header{
     height: 30vh;
-    font-size: clamp(2vw, 10vw, 18vw);
+    font-size: clamp(2vw, 9vw, 17vw);
     
     margin: -22px -8px -16px;
     background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
     position: relative;
-}
+} 
 
 header h1{
-    width: 1300px;
-    font-size: clamp(2vw, 8.6vw, 18vw);
+    width: 1050px;
+    font-size: clamp(2vw, 8vw, 18vw);
     font-family: "Passion One", serif;
     background-color: rgb(5, 49, 49);
     position: absolute;
@@ -33,24 +33,47 @@ header h1{
     top: 50%;
     transform: translate(-50%, -100%); 
 
-}
+} */
 
-header h3{
-   
-    width: 90px;
-    font-size: 20px;
-    text-align: left;
+/*
+header h1{
+    font-size: clamp(2vw, 8vw, 18vw);
     font-family: "Passion One", serif;
-    background-color: rgb(3, 73, 73);
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 70px, solid, black;
+    margin-top: 0px;
+} 
+ */
+ 
+ header {
+    font-size: clamp(2vw, 4vw, 15vw);
+    font-family: "Passion One", serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px, solid, black;
+    margin-top: 0px;
+    
+ }
+
+header h6{
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   color: white;
+  
+   margin-top: -30px;
+   
     
    
 
 }
 
 div.primeira-estrofe{
+    padding-left: 25px;
     
-    min-width: 1450px;
     font-size: clamp(16px, 3.5vw, 80px);
     font-family: "Sriracha", sans-serif;
-    background-color: #ffffff63;
+    background-color: #ffffff41;
 }
