@@ -75,6 +75,7 @@ header h6{
 div.primeira-estrofe{
     padding-left: 25px;
     padding-top: 54px;
+    margin-left: 50px;
     font-size: clamp(16px, 3.5vw, 80px);
     font-family: "Sriracha", sans-serif;
     background-color: #ffffff41;
@@ -84,29 +85,70 @@ div.primeira-estrofe{
 
 section.segunda-estrofe {
     background-image: url(midia/background001.jpg);
-    height: 120vh;
-    background-position: center center;
+    max-height: 120vh;
+    min-height: auto;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
 p.segundo-texto{
     display: inline-block;
     max-width: 800px;
-    min-width: 300px;
+    min-width: 200px;
     margin-left: 50px;
+    background-position: center;
     padding: 25px;
     line-height: 2em;
+    text-shadow: 3px 2px 3px black ;
     font-size: clamp(16px, 3.5vw, 80px);
     font-family: "Sriracha", sans-serif;
     background-color: #0000004f;
     color: white;
 }
 
-div.terceira-estrofe {
+p.terceiro-texto {
     font-family: "Sriracha", sans-serif;
     font-size: clamp(2vw, 3.5vw, 80px);
-    padding-left: 30px;
+    padding-left: 25px;
     padding-top: 60px;
+    margin-left: 50px;
     background-color: white;
     line-height: 2em;
+}
+
+
+section.quarta-estrofe {
+    background-image: url(midia/background002.jpg);
+    max-height: auto;
+    min-height: auto;
+    background-attachment: fixed;
+    background-position: left center;
+}
+
+p.quarto-texto {
+    display: inline-block;
+    padding: 25px;
+    margin-left: 50px;
+    line-height: 2em;
+    text-shadow: 3px 2px 3px black ;
+    font-family: "Sriracha", sans-serif;
+    background-color: #00000056;
+    font-size: clamp(2vw, 3.5vw, 19vw);
+    color: white;
+}
+
+p.quinto-texto {
+    font-family: "Sriracha", sans-serif;
+    font-size: clamp(2vw, 3.5vw, 18vw);
+    line-height: 2em;
+    margin-left: 50px;
+    padding: 25px;
+}
+
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
