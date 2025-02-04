@@ -19,3 +19,17 @@ header {
         font-weight: 800;
     }
 }
+section {
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+    border: solid 10px black;
+    background-image: linear-gradient(to bottom,#001000, #00001D) ;
+    quadrado{
+        width: 400px;
+        height: 300px;
+        border: solid 5px black;
+        background-color: #0000A7;
+        margin: auto;
+    }
+}
