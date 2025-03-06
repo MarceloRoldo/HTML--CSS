@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERxemplo de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 2px solid black;
+            text-align: center;
+            padding: 4PX;
+        }
+        .num {
+            text-align: right;
+        }
+        thead, tfoot {
+            background-color: rgb(126, 126, 126);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+   <h1>uso de tabeçlas grandes</h1> 
+   <!-- 
+   Anatomia de tabelas
+    TABLE
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+        
+            TH ===== "Titulo" vai ficar em negrito
+            TD ===== "Dado"
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>ESTADO</th>
+                <th>POPULAÇÃO</th>
+                <th>PORCENTAGEM</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.000</td>
+                <td>21.88%</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.322.000</td>
+                <td>10.11%</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.000.000</td>
+                <td>7.9%</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.850.000</td>
+                <td>6.96%</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.824.000</td>
+                <td>5.64%</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total Habitantes</th>
+                <td class="num"><strong>210.000.000</strong></td>
+                <th>100%</th>
+            </tr>
+            
+
+        </tfoot>
+    </table>
+</body>
+</html>
