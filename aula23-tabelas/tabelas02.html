@@ -13,6 +13,13 @@
             border: 2px solid black;
             border-collapse: collapse;
         }
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            background-color: rgb(202, 202, 202);
+            padding: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.603);
+        }
         th, td{
             border: 2px solid black;
             text-align: center;
@@ -32,6 +39,7 @@
    <!-- 
    Anatomia de tabelas
     TABLE
+        CAPTION = legenda/titulo da tabela
         THEAD
             TR, TD, TH
         TBODY
@@ -43,11 +51,12 @@
             TD ===== "Dado"
     -->
     <table>
+        <caption>População das unidades federativas do Brasil  </caption>
         <thead>
             <tr>
-                <th>ESTADO</th>
-                <th>POPULAÇÃO</th>
-                <th>PORCENTAGEM</th>
+                <th scope="col">ESTADO</th>
+                <th scope="col">POPULAÇÃO</th>
+                <th scope="col"style="width: 50px;">PORCENTAGEM</th>
             </tr>
         </thead>
 
@@ -65,7 +74,7 @@
             <tr>
                 <td>Rio de Janeiro</td>
                 <td class="num">17.000.000</td>
-                <td>7.9%</td>
+                <td>7.90%</td>
             </tr>
             <tr>
                 <td>Bahia</td>
@@ -77,14 +86,45 @@
                 <td class="num">11.824.000</td>
                 <td>5.64%</td>
             </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.229.000</td>
+                <td>5.46%</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.796.000</td>
+                <td>4.46%</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.233.000</td>
+                <td>4.33%</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.664.000</td>
+                <td>4.15%</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8.058.000</td>
+                <td>3.75%</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7.350.000</td>
+                <td>3.47%</td>
+            </tr>
+
 
         </tbody>
 
         <tfoot>
             <tr>
-                <th>Total Habitantes</th>
-                <td class="num"><strong>210.000.000</strong></td>
-                <th>100%</th>
+                <th scope="row">Total Habitantes</th>
+                <td  class="num"><strong>210.000.000</strong></td>
+                <td><strong>100%</strong></td>
             </tr>
             
 
