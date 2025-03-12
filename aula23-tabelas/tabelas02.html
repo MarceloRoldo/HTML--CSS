@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ERxemplo de tabelas</title>
+    <title>Exemplo de tabelas</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -29,8 +29,18 @@
             text-align: right;
         }
         thead, tfoot {
-            background-color: rgb(126, 126, 126);
+            background-color: rgb(88, 87, 87);
             color: white;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        /* tbody > tr:nth-child(odd){
+            background-color: black
+        }
+        tbody > tr:nth-child(even) {
+            backgorund-color: white;
         }
     </style>
 </head>
