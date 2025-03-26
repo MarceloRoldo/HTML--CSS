@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+thead, tfoot {
+    background-color: rgb(187, 187, 187);
+}
+th, td {
+    border: 2px solid rgb(7, 15, 27);
+    border-collapse: collapse;
+    padding: 10px;
+}
