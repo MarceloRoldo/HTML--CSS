@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando Colunas</title>
+    <style>
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            
+        }
+        .nome{
+            background-color: rgb(247, 247, 150);
+        }
+        .idade{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col class="nome">
+        <col class="sexo">
+        <col class="idade" span="2">
+        <col class="prof">
+    </colgroup>
+        <caption>cadastro de pessoas</caption>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profisssão</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>F</td>
+                <td>20</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Marcio</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Agricultor</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>M</td>
+                <td>65</td>
+                <td>Engenheiro</td>
+            </tr>
+            <tr>
+                <td>Sandra</td>
+                <td>F</td>
+                <td>43</td>
+                <td>Auxiliar</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>19</td>
+                <td>Caixa</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>M</td>
+                <td>57</td>
+                <td>Churrasqueiro</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
